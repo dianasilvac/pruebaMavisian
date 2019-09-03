@@ -6,6 +6,10 @@ public class Arbol {
 	private Nodo raiz;
 
 	/* Contructores */
+	public Arbol() {
+		
+	}
+	
 	public Arbol(int valor) {
 		this.raiz = new Nodo(valor);
 	}
